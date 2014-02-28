@@ -15,7 +15,7 @@ DETAILS
 ### FUNCTIONS
 
 This toolkit includes tagbar-2.6.1, taghighlight-2.1.4, and a colorschema.
-Press <F2> to start tagbar, and press <F3> to start taghighlight.
+Press \<F2\> to start tagbar, and press \<F3\> to start taghighlight.
 
 ### INSTALL
 
