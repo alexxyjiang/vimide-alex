@@ -19,8 +19,7 @@ Press \<F2\> to start tagbar, and press \<F3\> to start taghighlight.
 
 ### INSTALL
 
-Just put the vimrc.tar.gz file under your home path. And exectue:
-		tar -zxvf vimrc.tar.gz
+Just put the all file under your home path, merge them to your .vim/ path and .vimrc file.
 
 That's all. Enjoy It!
 

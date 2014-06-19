@@ -1,0 +1,3 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/jiangxueyuan/personal_svn/app/ecom/cpro/tools/jiangxueyuan/regression_toolbox/script'
