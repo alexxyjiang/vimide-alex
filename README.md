@@ -18,6 +18,8 @@ DETAILS
 ### FUNCTIONS
 
 Toolkit Includes:
+--------------------------------
+
 		I.      colorschema
 		II.     pathogen-2.3:                   plugin manager
 		III.    ack-2.12:                       ack search
