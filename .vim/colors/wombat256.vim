@@ -1,7 +1,7 @@
 " Vim color file
 " Original Maintainer:	Lars H. Nielsen (dengmao@gmail.com)
-" Modify  Author: 		Alex. Jiang (alexxyjiang at gmail.com)
-" Last Change:	2014-06-20
+" Modify Author: 		Alex. Jiang (alexxyjiang at gmail.com)
+" Last Change:			2014-08-13
 "
 " Converting for 256-color terminals by
 " Danila Bespalov (danila.bespalov@gmail.com)
