@@ -57,9 +57,9 @@ hi Todo			ctermfg=245		cterm=none		guifg=#8f8f8f	gui=none
 
 " Diff highlight
 hi DiffText		ctermfg=234		ctermbg=254		cterm=none		guifg=#242424	guibg=#f6f3e8	gui=none
-hi DiffAdd		ctermfg=254		ctermbg=94		cterm=none		guifg=#f6f3e8	guibg=#875f00	gui=none
+hi DiffAdd		ctermfg=254		ctermbg=35		cterm=none		guifg=#f6f3e8	guibg=#00af5f	gui=none
 hi DiffDelete	ctermfg=254		ctermbg=201		cterm=none		guifg=#f6f3e8	guibg=#ff00ff	gui=none
-hi DiffDelete	ctermfg=254		ctermbg=35		cterm=none		guifg=#f6f3e8	guibg=#00af5f	gui=none
+hi DiffChange	ctermfg=254		ctermbg=94		cterm=none		guifg=#f6f3e8	guibg=#875f00	gui=none
 
 " Links
 hi! link FoldColumn			Folded
