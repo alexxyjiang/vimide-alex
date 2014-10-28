@@ -1,9 +1,6 @@
 " vim only mode
 set nocompatible
 
-" bottom ruler
-set ruler
-
 " line number
 set number
 
@@ -36,6 +33,18 @@ syntax on
 
 " highlight search
 set hlsearch
+
+" set status line
+set statusline=
+set statusline+=%-3.3n\                         " buffer number
+set statusline+=%f\                             " file name
+set statusline+=\<%h%m%r%w\>                    " file flags
+set statusline+=\[%{strlen(&ft)?&ft:'none'}]    " file type
+set statusline+=%=                              " right-align
+set statusline+=0x%-8B                          " character value
+set statusline+=%-14(%l,%c%V%)                  " line & character
+set statusline+=%<%P                            " file position
+set laststatus=2                                " always show statusline
 
 " colorscheme
 set term=xterm-256color
