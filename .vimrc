@@ -38,7 +38,7 @@ set hlsearch
 set statusline=
 set statusline+=%-3.3n\                         " buffer number
 set statusline+=%f\                             " file name
-set statusline+=\<%h%m%r%w\>                    " file flags
+set statusline+=%h%m%r%w                        " file flags
 set statusline+=\[%{strlen(&ft)?&ft:'none'}]    " file type
 set statusline+=%=                              " right-align
 set statusline+=0x%-8B                          " character value

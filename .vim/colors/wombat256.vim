@@ -1,8 +1,7 @@
 " Vim color file
 " Original Maintainer:	Lars H. Nielsen (dengmao@gmail.com)
 " Modify Author: 		Alex. Jiang (alexxyjiang at gmail.com)
-" Last Change:			2014-08-13
-"
+" Last Change:			2015-09-25
 " Converting for 256-color terminals by
 " Danila Bespalov (danila.bespalov@gmail.com)
 " with great help of tool by Wolfgang Frisch (xororand@frexx.de)
@@ -35,7 +34,7 @@ hi NonText		ctermfg=244		ctermbg=236		cterm=none		guifg=#808080	guibg=#303030	gu
 
 " Vim >= 7.0 specific colors
 if version >= 700
-hi CursorLine					ctermbg=236		cterm=none						guibg=#2d2d2d
+hi CursorLine					ctermbg=236		cterm=none						guibg=#2d2d2d	gui=none
 hi MatchParen	ctermfg=7		ctermbg=243		cterm=bold		guifg=#f6f3e8	guibg=#857b6f	gui=bold
 hi Pmenu		ctermfg=7		ctermbg=238						guifg=#f6f3e8	guibg=#444444
 hi PmenuSel		ctermfg=0		ctermbg=192						guifg=#000000	guibg=#cae682
@@ -57,9 +56,9 @@ hi Todo			ctermfg=245		cterm=none		guifg=#8f8f8f	gui=none
 
 " Diff highlight
 hi DiffText		ctermfg=234		ctermbg=254		cterm=none		guifg=#242424	guibg=#f6f3e8	gui=none
-hi DiffAdd		ctermfg=254		ctermbg=35		cterm=none		guifg=#f6f3e8	guibg=#00af5f	gui=none
+hi DiffAdd		ctermfg=254		ctermbg=94		cterm=none		guifg=#f6f3e8	guibg=#875f00	gui=none
 hi DiffDelete	ctermfg=254		ctermbg=201		cterm=none		guifg=#f6f3e8	guibg=#ff00ff	gui=none
-hi DiffChange	ctermfg=254		ctermbg=94		cterm=none		guifg=#f6f3e8	guibg=#875f00	gui=none
+hi DiffDelete	ctermfg=254		ctermbg=35		cterm=none		guifg=#f6f3e8	guibg=#00af5f	gui=none
 
 " Links
 hi! link FoldColumn			Folded
