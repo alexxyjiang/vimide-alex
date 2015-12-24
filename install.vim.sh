@@ -1,2 +1,4 @@
 #!/bin/bash
-sudo apt-get install vim exuberant-ctags
+git submodule update --init --recursive
+sudo apt-get install vim exuberant-ctags build-essential python-dev cmake
+cd .vim/bundle/ycm && python install.py --clang-completer && cd -
