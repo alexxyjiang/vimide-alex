@@ -1,3 +1,3 @@
 " tagbar support
-nmap <F2> :TagbarToggle<CR>
+nmap <F3> :TagbarToggle<CR>
 
