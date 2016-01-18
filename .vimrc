@@ -19,13 +19,13 @@ set backspace=indent,eol,start
 " set encoding inside vim to utf-8 (support all languages)
 set encoding=utf-8
 
-" set file encodings for load file
-set fileencodings=utf-8
+" set file encodings for load file (support utf-8 & general latin languages like Deutsch, Italiano)
+set fileencodings=utf-8,latin1
 
 " set terminal encoding to utf-8
 set tenc=utf-8
 
-" set double char for non-latin-char
+" set double width for non-latin-char
 set ambiwidth=double
 
 " enable syntax
