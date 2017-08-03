@@ -1,12 +1,12 @@
 [submodule ".vim/bundle/tagbar"]
 	path = .vim/bundle/tagbar
-  url = https://github.com/majutsushi/tagbar.git
-[submodule ".vim/bundle/ycm"]
-	path = .vim/bundle/ycm
-	url = https://github.com/Valloric/YouCompleteMe.git
+	url = https://github.com/majutsushi/tagbar.git
+	branch = master
 [submodule ".vim/bundle/surround"]
 	path = .vim/bundle/surround
 	url = https://github.com/tpope/vim-surround.git
+	branch = master
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+	branch = master
