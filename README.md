@@ -1,5 +1,5 @@
 # VIMIDE-ALEX
-The **vimide-alex** is a toolkit to configure your vi editor as an IDE quickly.
+The **vimide-alex** is a toolkit to configure your **vi** editor as an IDE quickly.
 
 ## Platform Supported
 Currently we support *debian 9* with *vim 8* only.
@@ -13,5 +13,5 @@ Currently we support *debian 9* with *vim 8* only.
 6. **surround**:      *surround* is a plugin to make sure the surroundings are in pairs
 
 ## Toggles
-\<F2\>: nerdtree on/off
-\<F3\>: tagbar on/off
+* \<F2\>: nerdtree on/off
+* \<F3\>: tagbar on/off
