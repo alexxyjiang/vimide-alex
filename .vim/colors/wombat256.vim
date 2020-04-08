@@ -1,7 +1,7 @@
 " Vim color file
 " Original Maintainer:  Lars H. Nielsen (dengmao@gmail.com)
 " Modify Author:        Alex. Jiang (alexxyjiang at gmail.com)
-" Last Change:          2015-09-25
+" Last Change:          2020-04-08
 " Converting for 256-color terminals by
 " Danila Bespalov (danila.bespalov@gmail.com)
 " with great help of tool by Wolfgang Frisch (xororand@frexx.de)
@@ -55,10 +55,10 @@ hi Comment      ctermfg=246   cterm=NONE  guifg=#99968b gui=NONE
 hi Todo         ctermfg=245   cterm=NONE  guifg=#8f8f8f gui=NONE
 
 " Diff highlighting
-hi DiffText     ctermfg=234  ctermbg=254    cterm=NONE  guifg=#242424 guibg=#f6f3e8 gui=NONE
-hi DiffAdd      ctermfg=254  ctermbg=94     cterm=NONE  guifg=#f6f3e8 guibg=#875f00 gui=NONE
-hi DiffDelete   ctermfg=254  ctermbg=201    cterm=NONE  guifg=#f6f3e8 guibg=#ff00ff gui=NONE
-hi DiffDelete   ctermfg=254  ctermbg=35     cterm=NONE  guifg=#f6f3e8 guibg=#00af5f gui=NONE
+hi DiffText     ctermfg=234   ctermbg=254   cterm=NONE  guifg=#242424 guibg=#e4e4e4 gui=NONE
+hi DiffChange   ctermfg=254   ctermbg=130   cterm=NONE  guifg=#e4e4e4 guibg=#af5f00 gui=NONE
+hi DiffAdd      ctermfg=254   ctermbg=22    cterm=NONE  guifg=#e4e4e4 guibg=#005f00 gui=NONE
+hi DiffDelete   ctermfg=254   ctermbg=52    cterm=NONE  guifg=#e4e4e4 guibg=#5f0000 gui=NONE
 
 " Links
 hi! link FoldColumn       Folded
