@@ -11,6 +11,7 @@ Currently we support *debian 9* with *vim 8* only.
 4. **nerdtree**:      *nerdtree* is a file explorer plugin
 5. **tagbar**:        *tagbar* is a plugin to explore code structure tags
 6. **surround**:      *surround* is a plugin to make sure the surroundings are in pairs
+7. **lightline**:     *lightline* is a plugin to make the status line look better
 
 ## Toggles
 * \<F2\>: nerdtree on/off
