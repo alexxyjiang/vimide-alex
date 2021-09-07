@@ -8,10 +8,13 @@ set number
 set linebreak
 
 " tab related
-set shiftwidth=2
-set tabstop=2
+set shiftwidth=4
+set tabstop=4
 set expandtab
 set autoindent
+
+" front-end languages
+autocmd filetype coffee,css,html,json,xml,yaml set shiftwidth=2 tabstop=2
 " c family languages
 autocmd filetype c,cpp,java,scala set shiftwidth=4 tabstop=4
 " no expand tab for makefile
@@ -50,4 +53,3 @@ set laststatus=2
 
 " enable pathogen to manage all plugins
 execute pathogen#infect()
-
