@@ -12,6 +12,10 @@ set shiftwidth=2
 set tabstop=2
 set expandtab
 set autoindent
+" c family languages
+autocmd filetype c,cpp,java,scala set shiftwidth=4 tabstop=4
+" no expand tab for makefile
+autocmd filetype make set shiftwidth=4 tabstop=4 noexpandtab
 
 " backspace enable
 set backspace=indent,eol,start
@@ -27,6 +31,9 @@ set tenc=utf-8
 
 " set double width for non-latin-char
 set ambiwidth=double
+
+" set list chars
+set lcs=lead:.,tab:-->,trail:.,eol:$
 
 " enable syntax
 syntax on

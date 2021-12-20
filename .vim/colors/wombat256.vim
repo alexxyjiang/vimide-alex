@@ -55,7 +55,7 @@ hi Comment      ctermfg=246   cterm=NONE  guifg=#99968b gui=NONE
 hi Todo         ctermfg=245   cterm=NONE  guifg=#8f8f8f gui=NONE
 
 " Diff highlighting
-hi DiffText     ctermfg=234   ctermbg=254   cterm=NONE  guifg=#242424 guibg=#e4e4e4 gui=NONE
+hi DiffText     ctermfg=234   ctermbg=111   cterm=NONE  guifg=#242424 guibg=#8ac6f2 gui=NONE
 hi DiffChange   ctermfg=254   ctermbg=130   cterm=NONE  guifg=#e4e4e4 guibg=#af5f00 gui=NONE
 hi DiffAdd      ctermfg=254   ctermbg=22    cterm=NONE  guifg=#e4e4e4 guibg=#005f00 gui=NONE
 hi DiffDelete   ctermfg=254   ctermbg=52    cterm=NONE  guifg=#e4e4e4 guibg=#5f0000 gui=NONE
