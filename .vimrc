@@ -14,9 +14,9 @@ set expandtab
 set autoindent
 
 " front-end languages
-autocmd filetype coffee,css,html,json,xml,yaml set shiftwidth=2 tabstop=2
-" c family languages
-autocmd filetype c,cpp,java,scala set shiftwidth=4 tabstop=4
+autocmd filetype coffee,css,html,javascript,javascriptreact,json,xml,yaml set shiftwidth=2 tabstop=2
+" java family languages
+autocmd filetype java,scala,sbt set shiftwidth=2 tabstop=2
 " no expand tab for makefile
 autocmd filetype make set shiftwidth=4 tabstop=4 noexpandtab
 
