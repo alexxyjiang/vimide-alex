@@ -49,15 +49,30 @@ colorscheme wombat256
 " always show statusline
 set laststatus=2
 
+" python configuration
+set pyxversion=3
+let g:python3_host_prog = '/usr/local/bin/python3'
+
 " plugins
 " you need to reload '~/.vimrc' and call ':PlugInstall' to install plugins.
 " vim-plug: start commands
 call plug#begin()
 
+" neovim plugin support
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
+
+" major plugins
 Plug 'mileszs/ack.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdtree'
 Plug 'preservim/tagbar'
+Plug 'Shougo/deoplete.nvim'
+
+" deoplete completion sources
+Plug 'zchee/deoplete-jedi'
+Plug 'Shougo/deoplete-clangx'
+Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
 
 " vim-plug: initialize plugin system
 call plug#end()
