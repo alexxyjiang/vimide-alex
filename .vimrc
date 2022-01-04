@@ -13,10 +13,8 @@ set tabstop=4
 set expandtab
 set autoindent
 
-" front-end languages
-autocmd filetype coffee,css,html,javascript,javascriptreact,json,xml,yaml set shiftwidth=2 tabstop=2
-" java family languages
-autocmd filetype java,scala,sbt set shiftwidth=2 tabstop=2
+" short tab languages
+autocmd filetype css,html,java,javascript,javascriptreact,json,lua,sbt,scala,sql,sqloracle,xml,yaml set shiftwidth=2 tabstop=2
 " no expand tab for makefile
 autocmd filetype make set shiftwidth=4 tabstop=4 noexpandtab
 
@@ -26,7 +24,7 @@ set backspace=indent,eol,start
 " set encoding inside vim to utf-8 (support all languages)
 set encoding=utf-8
 
-" set file encodings for load file (support utf-8, chinese gb-codec  & general latin languages like Deutsch, Italiano)
+" set file encodings for load file (support utf-8, chinese gb-codec & general latin languages like Deutsch, Italiano)
 set fileencodings=utf-8,gb18030,latin1
 
 " set terminal encoding to utf-8
@@ -51,5 +49,15 @@ colorscheme wombat256
 " always show statusline
 set laststatus=2
 
-" enable pathogen to manage all plugins
-execute pathogen#infect()
+" plugins
+" you need to reload '~/.vimrc' and call ':PlugInstall' to install plugins.
+" vim-plug: start commands
+call plug#begin()
+
+Plug 'mileszs/ack.vim'
+Plug 'itchyny/lightline.vim'
+Plug 'preservim/nerdtree'
+Plug 'preservim/tagbar'
+
+" vim-plug: initialize plugin system
+call plug#end()
