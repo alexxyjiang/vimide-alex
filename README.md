@@ -2,12 +2,15 @@
 The **vimide-alex** is a toolkit to configure your **vi** editor as an IDE quickly.
 
 ## Platform Supported
-Currently we support *debian 9+* / *OSX 10.15+* with *vim 8*.
+Currently we support *debian 9+* / *OSX 10.15+* with *vim 8+*.
 
 ## Prerequisites
 * ctags
 * pynvim (pip)
 * jedi (pip)
+
+## Install
+Please run the script `./install.vim.sh` first, then run `:PlugInstall` inside **vim** to install the plugins.
 
 ## Toolkit Plugins
 1. **colorscheme**: *wombat256* is enabled to support syntax highlight
