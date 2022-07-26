@@ -72,7 +72,7 @@ Plug 'Shougo/deoplete.nvim'
 " deoplete completion sources
 Plug 'zchee/deoplete-jedi'
 Plug 'Shougo/deoplete-clangx'
-Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
+Plug 'alexxyjiang/deoplete-tabnine', { 'do': './install.sh' }
 
 " vim-plug: initialize plugin system
 call plug#end()

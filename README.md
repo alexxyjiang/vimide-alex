@@ -2,7 +2,7 @@
 The **vimide-alex** is a toolkit to configure your **vi** editor as an IDE quickly.
 
 ## Platform Supported
-Currently we support *debian 9+* / *OSX 10.15+* with *vim 8+*.
+Currently we support *debian 9+* / *macOS 10.12+* with *vim 8+*. I recommend using the standard `vim` and `exuberant-ctags` package for *debian*, and the *vim* compiled from [source code](https://github.com/vim/vim) for *macOS*.
 
 ## Prerequisites
 * ctags
