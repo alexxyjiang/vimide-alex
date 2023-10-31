@@ -39,6 +39,9 @@ set lcs=lead:.,tab:-->,trail:.,eol:$
 " enable syntax
 syntax on
 
+" highlight cursorline
+set cursorline
+
 " highlight search
 set hlsearch
 
