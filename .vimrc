@@ -70,12 +70,16 @@ Plug 'mileszs/ack.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdtree'
 Plug 'preservim/tagbar'
+Plug 'DataWraith/auto_mkdir'
 Plug 'Shougo/deoplete.nvim'
 
 " deoplete completion sources
 Plug 'zchee/deoplete-jedi'
 Plug 'Shougo/deoplete-clangx'
 Plug 'alexxyjiang/deoplete-tabnine', { 'do': './install.sh' }
+
+" github copilot
+Plug 'github/copilot.vim'
 
 " vim-plug: initialize plugin system
 call plug#end()
