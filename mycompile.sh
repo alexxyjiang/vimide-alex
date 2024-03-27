@@ -8,9 +8,9 @@ make clean distclean
 --enable-python3interp=yes \
 --with-python3-config-dir=$(python-config --configdir) \
 --enable-luainterp=yes \
---with-lua-prefix=/usr/local/Cellar/lua/5.4.6 \
+--with-lua-prefix=/opt/homebrew/Cellar/lua/5.4.6 \
 --enable-perlinterp=yes \
 --disable-gui \
 --without-x
-make -j 16
+make -j 12
 # make install

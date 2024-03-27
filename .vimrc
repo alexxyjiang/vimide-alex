@@ -54,7 +54,7 @@ set laststatus=2
 
 " python configuration
 set pyxversion=3
-let g:python3_host_prog = '/usr/local/bin/python3'
+let g:python3_host_prog = '/opt/homebrew/bin/python3'
 
 " plugins
 " you need to reload '~/.vimrc' and call ':PlugInstall' to install plugins.
@@ -66,6 +66,7 @@ Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
 
 " major plugins
+Plug 'guns/xterm-color-table.vim'
 Plug 'mileszs/ack.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdtree'
