@@ -29,11 +29,11 @@ hi StatusLineNC ctermfg=8     ctermbg=241   cterm=NONE  guifg=#808080 guibg=#626
 hi VertSplit    ctermfg=NONE  ctermbg=241   cterm=NONE  guifg=NONE    guibg=#626262 gui=NONE
 hi LineNr       ctermfg=206   ctermbg=235   cterm=NONE  guifg=#ff5fd7 guibg=#262626 gui=NONE
 hi SpecialKey   ctermfg=8     ctermbg=238   cterm=NONE  guifg=#808080 guibg=#444444 gui=NONE
-hi NonText      ctermfg=7     ctermbg=238   cterm=NONE  guifg=#c0c0c0 guibg=#444444 gui=NONE
+hi NonText      ctermfg=7     ctermbg=235   cterm=NONE  guifg=#c0c0c0 guibg=#262626 gui=NONE
 
 " Vim >= 7.0 specific colors
 if version >= 700
-hi CursorLine                 ctermbg=241   cterm=NONE                guibg=#626262 gui=NONE
+hi CursorLine                 ctermbg=238   cterm=NONE                guibg=#444444 gui=NONE
 hi CursorLineNr ctermfg=76    ctermbg=241   cterm=NONE  guifg=#5fdf00 guibg=#626262 gui=NONE
 hi MatchParen   ctermfg=7     ctermbg=8     cterm=BOLD  guifg=#c0c0c0 guibg=#808080 gui=BOLD
 hi Pmenu        ctermfg=7     ctermbg=241               guifg=#c0c0c0 guibg=#626262
