@@ -14,7 +14,7 @@ set expandtab
 set autoindent
 
 " short tab languages
-autocmd filetype css,html,java,javascript,javascriptreact,json,lua,sbt,scala,sql,sqloracle,xml,yaml set shiftwidth=2 tabstop=2
+autocmd filetype css,html,java,javascript,javascriptreact,json,lua,sbt,scala,sql,sqloracle,typescript,xml,yaml set shiftwidth=2 tabstop=2
 " no expand tab for makefile
 autocmd filetype make set shiftwidth=4 tabstop=4 noexpandtab
 
