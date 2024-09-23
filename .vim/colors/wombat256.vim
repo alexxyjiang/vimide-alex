@@ -45,7 +45,7 @@ hi Keyword      ctermfg=111   cterm=NONE  guifg=#87afff gui=NONE
 hi Statement    ctermfg=111   cterm=NONE  guifg=#87afff gui=NONE
 hi Constant     ctermfg=173   cterm=NONE  guifg=#d7875f gui=NONE
 hi Number       ctermfg=202   cterm=NONE  guifg=#ff5f00 gui=NONE
-hi PreProc      ctermfg=111   cterm=NONE  guifg=#87afff gui=NONE
+hi PreProc      ctermfg=87    cterm=NONE  guifg=#5fffff gui=NONE
 hi Function     ctermfg=135   cterm=NONE  guifg=#af5fff gui=NONE
 hi Identifier   ctermfg=192   cterm=NONE  guifg=#d7ff87 gui=NONE
 hi Type         ctermfg=185   cterm=NONE  guifg=#d7d75f gui=NONE

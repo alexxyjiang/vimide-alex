@@ -5,11 +5,11 @@ make clean distclean
 --enable-fail-if-missing \
 --enable-largefile \
 --enable-multibyte \
---enable-python3interp=yes \
---with-python3-config-dir=$(python-config --configdir) \
 --enable-luainterp=yes \
 --with-lua-prefix=/opt/homebrew/Cellar/lua/5.4.7 \
 --enable-perlinterp=yes \
+--enable-python3interp=yes \
+--with-python3-config-dir=$(python-config --configdir) \
 --disable-gui \
 --without-x
 make -j 12
