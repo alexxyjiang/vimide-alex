@@ -1,6 +1,7 @@
 # NOTE: make sure the binutils is not installed via brew, which makes errors, especially the "strip"
 make clean distclean
 ./configure --with-features=huge \
+--with-compiledby="Xueyuan Jiang <alexxyjiang@gmail.com>" \
 --enable-cscope \
 --enable-fail-if-missing \
 --enable-largefile \
