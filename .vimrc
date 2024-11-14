@@ -77,7 +77,6 @@ Plug 'Shougo/deoplete.nvim'
 " deoplete completion sources
 Plug 'zchee/deoplete-jedi'
 Plug 'Shougo/deoplete-clangx'
-Plug 'alexxyjiang/deoplete-tabnine', { 'do': './install.sh' }
 
 " github copilot
 Plug 'github/copilot.vim'
