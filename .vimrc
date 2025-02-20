@@ -14,7 +14,7 @@ set expandtab
 set autoindent
 
 " short tab languages
-autocmd filetype css,html,java,javascript,javascriptreact,json,lua,sbt,scala,sql,sqloracle,typescript,xml,yaml set shiftwidth=2 tabstop=2
+autocmd filetype css,html,java,javascript,javascriptreact,json,kotlin,lua,php,sbt,scala,sql,sqloracle,typescript,xml,yaml set shiftwidth=2 tabstop=2
 " no expand tab for makefile
 autocmd filetype make set shiftwidth=4 tabstop=4 noexpandtab
 
@@ -66,17 +66,18 @@ Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
 
 " major plugins
+Plug 'DataWraith/auto_mkdir'
+Plug 'Konfekt/FastFold'
 Plug 'guns/xterm-color-table.vim'
-Plug 'mileszs/ack.vim'
 Plug 'itchyny/lightline.vim'
+Plug 'mileszs/ack.vim'
 Plug 'preservim/nerdtree'
 Plug 'preservim/tagbar'
-Plug 'DataWraith/auto_mkdir'
-Plug 'Shougo/deoplete.nvim'
 
 " deoplete completion sources
-Plug 'zchee/deoplete-jedi'
+Plug 'Shougo/deoplete.nvim'
 Plug 'Shougo/deoplete-clangx'
+Plug 'zchee/deoplete-jedi'
 
 " github copilot
 Plug 'github/copilot.vim'
