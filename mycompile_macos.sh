@@ -7,11 +7,11 @@ make clean distclean
 --enable-largefile \
 --enable-multibyte \
 --enable-luainterp=yes \
---with-lua-prefix=/opt/homebrew/Cellar/lua/5.4.7 \
+--with-lua-prefix=$(brew info lua | ag -o '^/[^ ]+') \
 --enable-perlinterp=yes \
 --enable-python3interp=yes \
 --with-python3-config-dir=$(python-config --configdir) \
 --disable-gui \
 --without-x
-make -j 12
+make -j 24
 # make install
