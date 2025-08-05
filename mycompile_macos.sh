@@ -1,5 +1,6 @@
 # NOTE: make sure the binutils is not installed via brew, which makes errors, especially the "strip"
 make clean distclean
+CC=clang CXX=clang++ \
 ./configure --with-features=huge \
 --with-compiledby="Xueyuan Jiang <alexxyjiang@gmail.com>" \
 --enable-cscope \
