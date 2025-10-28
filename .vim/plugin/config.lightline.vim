@@ -3,8 +3,11 @@ let g:lightline = {
 \   "active": {
 \     "left": [
 \       ["mode", "paste"],
-\       ["readonly", "filename", "modified", "charvaluehex"]
+\       ["gitbranch", "readonly", "filename", "modified", "charvaluehex"]
 \     ]
+\   },
+\   "component_function": {
+\     "gitbranch": "gitbranch#name"
 \   },
 \   "component": {
 \     "charvaluehex": "0x%B"
