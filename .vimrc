@@ -34,7 +34,7 @@ set tenc=utf-8
 set ambiwidth=double
 
 " set list chars
-set lcs=lead:.,tab:-->,trail:.,eol:$
+set lcs=eol:$,tab:-->,space:.,nbsp:+
 
 " enable syntax
 syntax on
