@@ -47,7 +47,7 @@ set hlsearch
 
 " colorscheme
 set term=xterm-256color
-colorscheme wombat256
+colorscheme freegull256
 
 " always show statusline
 set laststatus=2
