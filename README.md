@@ -12,20 +12,46 @@ Currently we support *debian 9+* / *macOS 10.12+* with *vim 8+*. I recommend usi
 ## Install
 Please run the script `./install.vim.sh` first, then run `:PlugInstall` inside **vim** to install the plugins.
 
-## Toolkit Plugins
-1. **colorscheme**: *wombat256* is enabled to support syntax highlight
-2. **vim-plug**:    *vim-plug* is the new plugin manager
-3. **ack**:         *ack* is a plugin to support ack/ag search in vim, which also requires "ag" tool installed
-4. **lightline**:   *lightline* is a plugin to make the status line look better
-5. **nerdtree**:    *nerdtree* is a file explorer plugin
-6. **tagbar**:      *tagbar* is a plugin to explore code structure tags
-7. **auto_mkdir**:  *auto_mkdir* is a plugin to automatically create the file's parent path if not exist when saving
-8. **deoplete**:    *deoplete* is a plugin to auto complete words in vim
-9. **copilot**:     *copilot* is a plugin to enable AI assist in coding
+## Vim Configuration Details
 
-## Toggles
-* \<F2\>: nerdtree on/off
-* \<F3\>: tagbar on/off
+### Core Editor Settings
+* **Line Numbers**: Enabled with `set number`
+* **Tab Configuration**: 4 spaces by default, 2 spaces for web/config languages
+* **Encoding**: UTF-8 with support for Chinese (GB18030) and Latin languages
+* **Visual**: Cursor line highlighting, search highlighting, and visible list characters
+* **Python**: Configured for Python 3 with `/opt/homebrew/bin/python3`
+
+### Color Scheme
+* **256-color terminal**: Configured for enhanced color support
+* **freegull256**: Custom color scheme located in `~/.vim/colors/freegull256.vim`
+
+### Plugin Management
+**vim-plug** is used as the plugin manager. Plugins are organized in `~/.vim/plugged/` with custom configurations in `~/.vim/plugin/`.
+
+### Toolkit Plugins
+1. **ack.vim**: Fast text search using Silver Searcher (ag)
+   - Configured to use `ag --vimgrep`
+2. **lightline**: Enhanced status line with git branch integration
+   - Wombat color scheme
+   - Shows: mode, paste status, git branch, filename, modified status, character hex value
+3. **nerdtree**: File explorer with custom directory arrows
+   - Expandable: `+`, Collapsible: `=`
+4. **tagbar**: Code structure navigation for ctags
+5. **auto_mkdir**: Automatic parent directory creation when saving files
+6. **deoplete**: Intelligent auto-completion framework
+   - 200ms delay for auto-completion
+   - Smart case matching enabled
+   - Includes clang and jedi completion sources
+7. **copilot**: GitHub Copilot AI coding assistant
+8. **FastFold**: Optimized folding performance
+9. **vim-gitbranch**: Git branch information for status line
+10. **xterm-color-table**: Color table reference for terminal
+
+### Key Mappings
+* **F2**: Toggle NERDTree file explorer
+* **F3**: Toggle Tagbar code structure panel
+* **F4**: Close folding
+* **F5**: Open folding
 
 ## Appendix
-The file `mycompile.sh` is an example of compiling vim from [source code](https://github.com/vim/vim) for *macOS*.
+The file `mycompile_macos.sh` is an example of compiling vim from [source code](https://github.com/vim/vim) for *macOS*.
