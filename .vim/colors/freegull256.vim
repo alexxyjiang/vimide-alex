@@ -1,7 +1,7 @@
 " Vim color file
 " Minimal Vim version: 7.0
 " Author:       Alex. Jiang (alexxyjiang@gmail.com)
-" Last Change:  2025-11-27
+" Last Change:  2026-05-19
 " Name:         freegull
 
 set background=dark
@@ -18,17 +18,17 @@ let colors_name = "freegull256"
 hi Normal       ctermfg=253   ctermbg=232   cterm=NONE  guifg=#dadada guibg=#080808 gui=NONE
 hi LineNr       ctermfg=193   ctermbg=236   cterm=NONE  guifg=#dfffaf guibg=#303030 gui=NONE
 hi CursorLine                 ctermbg=240   cterm=NONE                guibg=#585858 gui=NONE
-hi CursorLineNr ctermfg=54    ctermbg=248   cterm=NONE  guifg=#5f0087 guibg=#a8a8a8 gui=NONE
-hi Folded       ctermfg=193   ctermbg=244   cterm=NONE  guifg=#dfffaf guibg=#808080 gui=NONE
-hi MatchParen   ctermfg=7     ctermbg=244   cterm=BOLD  guifg=#c0c0c0 guibg=#808080 gui=BOLD
+hi CursorLineNr ctermfg=89    ctermbg=249   cterm=NONE  guifg=#87005f guibg=#b2b2b2 gui=NONE
+hi Folded       ctermfg=193   ctermbg=245   cterm=NONE  guifg=#dfffaf guibg=#8a8a8a gui=NONE
+hi MatchParen   ctermfg=7     ctermbg=245   cterm=BOLD  guifg=#c0c0c0 guibg=#8a8a8a gui=BOLD
 hi NonText      ctermfg=7     ctermbg=236   cterm=NONE  guifg=#c0c0c0 guibg=#303030 gui=NONE
 hi Search       ctermfg=236   ctermbg=173   cterm=NONE  guifg=#303030 guibg=#d7875f gui=NONE
-hi SpecialKey   ctermfg=8     ctermbg=240   cterm=NONE  guifg=#808080 guibg=#585858 gui=NONE
-hi StatusLine   ctermfg=7     ctermbg=244   cterm=NONE  guifg=#c0c0c0 guibg=#808080 gui=NONE
-hi StatusLineNC ctermfg=NONE  ctermbg=244   cterm=NONE  guifg=NONE    guibg=#808080 gui=NONE
-hi Title        ctermfg=76    ctermbg=244   cterm=BOLD  guifg=#5fdf00 guibg=#808080 gui=BOLD
-hi VertSplit    ctermfg=NONE  ctermbg=244   cterm=NONE  guifg=NONE    guibg=#808080 gui=NONE
-hi Visual       ctermfg=7     ctermbg=244   cterm=NONE  guifg=#c0c0c0 guibg=#808080 gui=NONE
+hi SpecialKey   ctermfg=8     ctermbg=240   cterm=NONE  guifg=#8a8a8a guibg=#585858 gui=NONE
+hi StatusLine   ctermfg=7     ctermbg=245   cterm=NONE  guifg=#c0c0c0 guibg=#8a8a8a gui=NONE
+hi StatusLineNC ctermfg=NONE  ctermbg=245   cterm=NONE  guifg=NONE    guibg=#8a8a8a gui=NONE
+hi Title        ctermfg=76    ctermbg=245   cterm=BOLD  guifg=#5fdf00 guibg=#8a8a8a gui=BOLD
+hi VertSplit    ctermfg=NONE  ctermbg=245   cterm=NONE  guifg=NONE    guibg=#8a8a8a gui=NONE
+hi Visual       ctermfg=7     ctermbg=245   cterm=NONE  guifg=#c0c0c0 guibg=#8a8a8a gui=NONE
 
 " diff mode
 hi DiffText     ctermfg=232   ctermbg=111   cterm=NONE  guifg=#080808 guibg=#87afff gui=NONE
@@ -37,12 +37,12 @@ hi DiffAdd      ctermfg=253   ctermbg=28    cterm=NONE  guifg=#dadada guibg=#008
 hi DiffDelete   ctermfg=253   ctermbg=88    cterm=NONE  guifg=#dadada guibg=#870000 gui=NONE
 
 " popup menu
-hi Pmenu        ctermfg=7     ctermbg=244   guifg=#c0c0c0 guibg=#808080
+hi Pmenu        ctermfg=7     ctermbg=245   guifg=#c0c0c0 guibg=#8a8a8a
 hi PmenuSel     ctermfg=0     ctermbg=193   guifg=#000000 guibg=#dfffaf
-hi PmenuSbar    ctermfg=15    ctermbg=244   guifg=#ffffff guibg=#808080
+hi PmenuSbar    ctermfg=15    ctermbg=245   guifg=#ffffff guibg=#8a8a8a
 
 " syntax
-hi Comment      ctermfg=248   cterm=NONE  guifg=#a8a8a8 gui=NONE
+hi Comment      ctermfg=249   cterm=NONE  guifg=#b2b2b2 gui=NONE
 hi Constant     ctermfg=173   cterm=NONE  guifg=#d7875f gui=NONE
 hi String       ctermfg=76    cterm=NONE  guifg=#5fdf00 gui=NONE
 hi Number       ctermfg=215   cterm=NONE  guifg=#ffaf5f gui=NONE
